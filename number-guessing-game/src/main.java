@@ -48,5 +48,7 @@ public class main {
         if( chance == 0 ) {
             System.out.println("End Game! the number is " + randomNumber);
         }
+
+        input.close();
     }
 }
